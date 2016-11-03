@@ -1,0 +1,11 @@
+rail
+
+Receiver # شروع میکنه هر موقع که پیامی دید اونو به ریل اضافه میکنه پس گزینه خوبیه واسه این که همین طور پیام درست بشه
+Swapper
+Replier
+
+rail.push(receiver:‌ for tara .eg)
+rail.push(receiver: for python telegram bot .eg)
+rail.push(swapper)
+rail.push(replier)
+
