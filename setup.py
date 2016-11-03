@@ -1,3 +1,4 @@
+from setuptools import find_packages
 name='sample',
 version='1.2.0',
 description='A sample Python project',
@@ -31,8 +32,8 @@ classifiers=[
     'Programming Language :: Python :: 3.4',
 ],
 keywords='sample setuptools development',
-packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-install_requires=['peppercorn'],
+packages=find_packages(exclude=['TheEyes']),
+#install_requires=['peppercorn'],
 package_data={
     'sample': ['package_data.dat'],
 },
