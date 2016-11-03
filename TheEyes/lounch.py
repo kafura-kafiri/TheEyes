@@ -1,4 +1,4 @@
-from app import Rails
+from TheEyes.app import Rails
 app = Rails()
 
 
