@@ -1,8 +1,8 @@
-from rails.app import Rails
+from app import Rails
 app = Rails()
 
 
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, MessageHandler, Filters
 import logging
 
 # Enable logging
